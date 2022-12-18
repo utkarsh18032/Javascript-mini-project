@@ -11,7 +11,7 @@ h1{
 }
 body{
     margin:0;
-     background-image: url(/images/newyearimg.jpg); 
+     background-image: url(../images/newyearimg.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
