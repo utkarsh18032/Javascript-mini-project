@@ -10,11 +10,11 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "Who is the President of US?",
-        a: "Florin Pop",
-        b: "Donald Trump",
-        c: "Ivan Saldano",
-        d: "Mihai Andrei",
+        question: "Who is the Prime minister of india?",
+        a: "yogi Adityanath",
+        b: "Narendra modi",
+        c: "Devendra Fadnavis",
+        d: "S jaishankar",
         correct: "b",
     },
     {
