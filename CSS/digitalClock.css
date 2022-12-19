@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    background-image: url(../images/professor.jpg);
+    background-size: cover;
+    background-position:top;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    font-size:3vw;
+    text-align: center;
+}
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.clock div{
+    margin:10px;
+    font-size:50px;
+}
+.clock span{
+    width:120px;
+    height:80px;
+    background:rgba(0, 0, 255, 0.336);
+    opacity: 80%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    text-shadow: 2px 2px 4px black;
+    font-size:60px;
+    text-shadow:3px 5px 5px orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.clock .text{
+    height:30px;
+    font-size:22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background:blue;
+}
+.clock #Ampm{
+    position: absolute;
+    bottom:10px;
+    width:70px;
+    height:35px;
+    font-size:2.1vw;
+    text-transform: uppercase;
+    background: rgb(0, 13, 128);
+}
+#hour,#minutes, #second{
+    font-size:3vw;
+}

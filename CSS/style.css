@@ -4,7 +4,10 @@
    
 }
 body{
-    background-color: royalblue;
+    background-image: url(../images/redbg.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
     width:100vw;
   height:100vh;
@@ -22,17 +25,38 @@ h1{
     text-align: center;
     color: white;
     text-transform: capitalize;
-    margin:3.6%;
+    /* margin:3.6%; */
 }
 .container ul{
-    margin-top:10%;
+    margin-top:3%;
 }
 .container ul li{
-    /* margin:5px; */
-    margin:2.5%;
+
+     margin:1%; 
     font-size:2rem;
     list-style: none;
 }
 .container ul li a{
     color:white;
+    text-decoration: none;
+}
+.sequence{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.sequence li{
+    height:100px;
+    width:300px;
+    border: 2px solid gray;
+    padding-top: 40px;
+    background-color:royalblue;
+    text-shadow: -1px -1px black;
+    box-shadow: 4px 3px 4px 5px orangered;  
+}
+h3{
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top:0.5%;
 }
